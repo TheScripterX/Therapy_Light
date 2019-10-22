@@ -40,29 +40,36 @@
   </head>
   <body>
     <header class="header">
-      <!--Nav Menu Start-->
-      <nav class="navbar navbar-expand-lg ">
-        <ul class="navbar-nav mr-auto is-left">
-          <li class="nav-item">
-            <a href="#" class="navbar-brand">Therapy Light</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto is-right">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Product</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Pipeline</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Leadership</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact Us</a>
-          </li>
-        </ul>
+      <!--Nav Menu Beta Start-->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Therapy Light</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Product 1</a>
+                <a class="dropdown-item" href="#">Product 2</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pipeline</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Leadership</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <!--Nav Menu End-->
+      <!--Nav Menu Beta End-->
       <!--Content Header Start-->
       <div class="jumbotron container text-center">
         <div class="header-content">
@@ -71,7 +78,7 @@
             Our products are rapidly changing how patients and medical teams
             monitor, manage and treat health issues.
           </h2>
-          <button type="button" class="btn btn-primary">LEARN MORE</button>
+          <button type="button" class="btn btn-primary btn-sm">LEARN MORE</button>
         </div>
       </div>
       <!--Content Header End-->

@@ -9,7 +9,7 @@
 .header {
   height: 100vh;
   background: url("../img/hero-image.png") no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .header .navbar {
   padding: 0.5rem 3rem;
@@ -19,10 +19,8 @@
   font-weight: bold;
   color: #00b3ef;
 }
-.header .nav-link {
+.header .navbar-light .navbar-nav .nav-link {
   color: black;
-  font-style: normal;
-  font-size: 1rem;
 }
 .header h1 {
   font-weight: bold;
@@ -311,5 +309,16 @@
   .delighter-3,
   .delighter-4 {
     display: none;
+  }
+  .header {
+    height: fit-content;
+  }
+  .header .btn {
+    font-size: 0.7rem;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(#00d2ef, #0093c4);
+    border-style: none;
   }
 }
