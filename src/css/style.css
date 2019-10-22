@@ -8,11 +8,14 @@
 }
 .header {
   height: 100vh;
-  background: url("../img/hero-image.png") no-repeat center;
+  background-image: linear-gradient(transparent, #ffffff87),
+    url(../img/hero-image.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .header .navbar {
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1rem;
 }
 .header .navbar-brand {
   font-size: 1.1rem;
@@ -199,6 +202,8 @@
 }
 .products-content img {
   border-radius: 10px;
+  width: 80px;
+  height: 80px;
 }
 .products-content h3 {
   padding: 0;
@@ -264,8 +269,10 @@
   padding: 40px 0;
 }
 .contact-us-content .bigicon {
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   color: #36a0ff;
+  width: 40px;
+  text-align: center;
 }
 .contact-us-content p {
   line-height: normal;
