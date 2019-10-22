@@ -8,8 +8,7 @@
 }
 .header {
   height: 100vh;
-  background-image: linear-gradient(transparent, #ffffff87),
-    url(../img/hero-image.png);
+  background-image: url(../img/hero-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -319,6 +318,11 @@
   }
   .header {
     height: fit-content;
+    background-image: linear-gradient(transparent, #ffffff87),
+      url(../img/hero-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .header .btn {
     font-size: 0.7rem;
